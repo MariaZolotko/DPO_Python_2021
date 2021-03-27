@@ -9,9 +9,16 @@ TimedPromise@chrome://marionette/content/sync.js:216:10
 interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
 webdriverClickElement@chrome://marionette/content/interaction.js:179:31
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1616667405058	geckodriver	INFO	Listening on 127.0.0.1:59749
-1616667408120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kzolo\\AppData\\Local\\Temp\\rust_mozprofilezo2BLT"
+1616688531862	Marionette	INFO	Stopped listening on port 58457
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kzolo\\AppData\\Local\\Temp\\rust_mozprofilezo2BLT"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1616667412167	Marionette	INFO	Listening on port 59758
 1616667412322	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616688531920	Marionette	INFO	Stopped listening on port 59758
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
